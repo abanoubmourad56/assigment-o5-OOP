@@ -64,6 +64,27 @@ namespace assigment_o5_OOP
             //d) Can an extension method access private members of the class it extends?
             //d) No, it cannot access private members of the class it extends.
 
+            /*
+            1. Create CopyShipment() method:
+            public Shipment CopyShipment()
+{
+    return new Shipment
+    {
+        Weight = this.Weight,
+        DeliveryFee = this.DeliveryFee,
+        DeliveryAddress = this.DeliveryAddress
+    };
+}
+            2. Assigning one object to another:
+            Shipment shipment2 = shipment1;
+            Both variables refer to the same object.
+
+            3. Creating an actual copy:
+            Shipment shipment2 = shipment1.CopyShipment();
+            shipment1 and shipment2 are different objects.
+
+            */
+
         }
 
     }
