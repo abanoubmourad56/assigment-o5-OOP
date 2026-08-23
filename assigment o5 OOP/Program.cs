@@ -1,4 +1,7 @@
-﻿using System.Drawing;
+﻿using System.Data.Common;
+using System.Drawing;
+using System.Reflection.Metadata;
+using System.Runtime.Intrinsics.X86;
 using System.Xml.Linq;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
@@ -50,6 +53,11 @@ namespace assigment_o5_OOP
 
             //a) What is an Extension Method?
             //a) An Extension Method is a method that adds new functionality to an existing class without changing the class.
+
+            //b) What keyword must be used in the first parameter of an extension method ?
+            //b) The first parameter must use the this keyword.
+
+
         }
 
     }
