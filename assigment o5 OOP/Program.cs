@@ -144,6 +144,17 @@ Same DeliveryAddress object? False
             Answer: The value is shared between all Shipment objects.
 
             */
+
+            /*
+            5 — Static Constructor
+            static Shipment()
+{
+    TotalShipmentsCreated = 0;
+    Console.WriteLine("Shipment System Initialized");
+}
+            Answer: The static constructor runs automatically once and cannot be called manually.
+            output : Shipment System Initialized
+            */
         }
 
     }
