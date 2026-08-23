@@ -131,6 +131,19 @@ Same DeliveryAddress object? False
             Result: Deep Copy creates a new Shipment and a new DeliveryAddress.
 
             */
+
+            /*
+            4 — Static Field
+              Add a static field to Shipment:
+            public static int TotalShipmentsCreated = 0;
+            Increment it whenever a Shipment is created:
+            public Shipment()
+           {
+               TotalShipmentsCreated++;
+           }
+            Answer: The value is shared between all Shipment objects.
+
+            */
         }
 
     }
