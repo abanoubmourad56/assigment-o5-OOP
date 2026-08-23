@@ -23,6 +23,9 @@ namespace assigment_o5_OOP
 
             //b) What is a Deep Copy?
             //Deep Copy: Creates a new object and also creates new copies of reference-type members.
+
+            //c) What happens to reference-type members when a Shallow Copy is created?
+            //c) In a Shallow Copy, reference-type members point to the same objects.
         }
 
     }
