@@ -1,4 +1,5 @@
-﻿using System.Data.Common;
+﻿using System.ComponentModel;
+using System.Data.Common;
 using System.Drawing;
 using System.Reflection.Metadata;
 using System.Runtime.Intrinsics.X86;
@@ -56,6 +57,9 @@ namespace assigment_o5_OOP
 
             //b) What keyword must be used in the first parameter of an extension method ?
             //b) The first parameter must use the this keyword.
+
+            //c) Where must an extension method be declared ?
+            //c) It must be declared inside a static class.
 
 
         }
