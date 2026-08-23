@@ -166,7 +166,14 @@ Same DeliveryAddress object? False
             Console.WriteLine(
     "Total Shipments Created : " + Shipment.GetTotalShipmentsCreated()
 );
+            Call it without creating an object:
+            Console.WriteLine(
+    "Total Shipments Created : " + Shipment.GetTotalShipmentsCreated()
+);
+            Output: Total Shipments Created : 3
             */
+
+
         }
 
     }
