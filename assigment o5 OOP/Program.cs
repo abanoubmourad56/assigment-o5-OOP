@@ -41,6 +41,9 @@ namespace assigment_o5_OOP
             //b) A static method belongs to the class.
             //No, it cannot directly access instance members.
 
+            //c) What is a static constructor, and when is it executed ?
+            //c) A static constructor initializes static members.It runs automatically once, before the class is first used.
+
         }
 
     }
