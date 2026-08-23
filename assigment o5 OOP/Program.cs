@@ -215,6 +215,56 @@ Console.WriteLine(shipment.IsDelivered());
 
             */
 
+            /*
+            static void Main()
+{
+    // 1. Reference Assignment
+    Shipment shipment1 = new Shipment();
+    Shipment shipment2 = shipment1;
+
+    Console.WriteLine(shipment1 == shipment2); // True
+    // No new object is created.
+
+    // 2. Shallow Copy
+    Shipment shallowCopy = shipment1.ShallowCopy();
+
+    Console.WriteLine(shipment1 == shallowCopy); 
+    // False
+
+    Console.WriteLine(
+        shipment1.DeliveryAddress == shallowCopy.DeliveryAddress
+    );
+    // True
+
+    // 3. Deep Copy
+    Shipment deepCopy = shipment1.DeepCopy();
+
+    Console.WriteLine(shipment1 == deepCopy); 
+    // False
+
+    Console.WriteLine(
+        shipment1.DeliveryAddress == deepCopy.DeliveryAddress
+    );
+    // False
+
+    // 4. Static Counter
+    Console.WriteLine(
+        "Total Shipments Created: " +
+        Shipment.GetTotalShipmentsCreated()
+    );
+
+    // 5. Static Constructor
+    // Runs automatically once when Shipment is first used.
+
+    // 6. DeliveryUtilities
+    DeliveryUtilities.PrintSystemTitle();
+    DeliveryUtilities.PrintSeparator();
+
+    // 7. Extension Methods
+    Console.WriteLine(shipment1.GetSummary());
+    Console.WriteLine(shipment1.IsDelivered());
+}
+            */
         }
 
     }
