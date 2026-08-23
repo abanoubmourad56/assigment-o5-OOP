@@ -44,6 +44,11 @@ namespace assigment_o5_OOP
             //c) What is a static constructor, and when is it executed ?
             //c) A static constructor initializes static members.It runs automatically once, before the class is first used.
 
+            //d) What is a static class? Can you create an object from a static class?
+          //  A static class contains only static members.
+          //No, you cannot create an object from a static class
+
+
         }
 
     }
