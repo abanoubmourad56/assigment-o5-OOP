@@ -85,6 +85,26 @@ namespace assigment_o5_OOP
 
             */
 
+            /*
+            Q2 — Shallow Copy
+            1. Create ShallowCopy() method:
+            public Shipment ShallowCopy()
+{
+    return (Shipment)this.MemberwiseClone();
+}
+            2. Create the shallow copy:
+            Shipment shipment2 = shipment1.ShallowCopy();
+            shipment1 and shipment2 are different Shipment objects.
+
+            3. Check the DeliveryAddress:
+            shipment1.DeliveryAddress == shipment2.DeliveryAddress
+            shipment1.DeliveryAddress == shipment2.DeliveryAddress
+
+            4. Change the address:
+            shipment2.DeliveryAddress.City = "Alexandria";
+            The address of shipment1 will also change because both shipments share the same DeliveryAddress object.
+            */
+
         }
 
     }
