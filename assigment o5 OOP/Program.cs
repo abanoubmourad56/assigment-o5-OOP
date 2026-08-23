@@ -155,6 +155,18 @@ Same DeliveryAddress object? False
             Answer: The static constructor runs automatically once and cannot be called manually.
             output : Shipment System Initialized
             */
+
+            /*
+            6 — Static Method
+            public static int GetTotalShipmentsCreated()
+            {      
+               return TotalShipmentsCreated;
+             } 
+            Call it without creating an object:
+            Console.WriteLine(
+    "Total Shipments Created : " + Shipment.GetTotalShipmentsCreated()
+);
+            */
         }
 
     }
