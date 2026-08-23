@@ -45,10 +45,11 @@ namespace assigment_o5_OOP
             //c) A static constructor initializes static members.It runs automatically once, before the class is first used.
 
             //d) What is a static class? Can you create an object from a static class?
-          //  A static class contains only static members.
-          //No, you cannot create an object from a static class
+            //  A static class contains only static members.
+            //No, you cannot create an object from a static class
 
-
+            //a) What is an Extension Method?
+            //a) An Extension Method is a method that adds new functionality to an existing class without changing the class.
         }
 
     }
