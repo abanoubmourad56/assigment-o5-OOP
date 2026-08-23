@@ -29,6 +29,9 @@ namespace assigment_o5_OOP
 
             //d) What happens to reference-type members when a Deep Copy is created?
             // In a Deep Copy, reference-type members point to new separate objects.
+
+            //e) Give one situation where Deep Copy would be safer than Shallow Copy.
+            //Deep Copy is safer when you want to change the copied object without affecting the original object.
         }
 
     }
