@@ -173,6 +173,26 @@ Same DeliveryAddress object? False
             Output: Total Shipments Created : 3
             */
 
+            /*
+            7 — Static Class
+            public static class DeliveryUtilities
+{
+    public static void PrintSeparator()
+    {
+        Console.WriteLine("--------------------");
+    }
+
+    public static void PrintSystemTitle()
+    {
+        Console.WriteLine("Shipment Management System");
+    }
+}
+            Use them in Main():
+            DeliveryUtilities.PrintSystemTitle();
+            DeliveryUtilities.PrintSeparator();
+            Answer: A static class contains static methods and cannot be instantiated.
+
+            */
 
         }
 
