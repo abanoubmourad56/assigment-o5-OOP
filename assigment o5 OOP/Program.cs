@@ -191,6 +191,27 @@ Same DeliveryAddress object? False
             DeliveryUtilities.PrintSystemTitle();
             DeliveryUtilities.PrintSeparator();
             Answer: A static class contains static methods and cannot be instantiated.
+            */
+
+            /* question 8
+            1. Create ShipmentExtensions class
+            public static class ShipmentExtensions
+{
+    public static string GetSummary(this Shipment shipment)
+    {
+        return $"{shipment.TrackingCode} | {shipment.ShipmentType} | {shipment.Weight} KG | {shipment.TrackingStatus}";
+    }
+
+    public static bool IsDelivered(this Shipment shipment)
+    {
+        return shipment.TrackingStatus == "Delivered";
+    }
+}
+            2. Usage
+            Console.WriteLine(shipment.GetSummary());
+Console.WriteLine(shipment.IsDelivered());
+            Output : SH001 | Standard | 3 KG | In Transit False
+            Answer: GetSummary() returns shipment information, while IsDelivered() returns true only when the status is Delivered.
 
             */
 
