@@ -26,6 +26,9 @@ namespace assigment_o5_OOP
 
             //c) What happens to reference-type members when a Shallow Copy is created?
             //c) In a Shallow Copy, reference-type members point to the same objects.
+
+            //d) What happens to reference-type members when a Deep Copy is created?
+            // In a Deep Copy, reference-type members point to new separate objects.
         }
 
     }
