@@ -105,6 +105,32 @@ namespace assigment_o5_OOP
             The address of shipment1 will also change because both shipments share the same DeliveryAddress object.
             */
 
+            /*
+            public Shipment DeepCopy()
+{
+    return new Shipment
+    {
+        Weight = this.Weight,
+        DeliveryFee = this.DeliveryFee,
+        DeliveryAddress = new DeliveryAddress
+        {
+            City = this.DeliveryAddress.City
+        }
+    };
+}
+
+            Demonstration
+Before change:
+Original: Cairo
+Copied: Cairo
+Same DeliveryAddress object? False
+            After changing copied address:
+            Original: Cairo
+Copied: Giza
+Same DeliveryAddress object? False
+            Result: Deep Copy creates a new Shipment and a new DeliveryAddress.
+
+            */
         }
 
     }
