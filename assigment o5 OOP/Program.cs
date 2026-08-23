@@ -32,6 +32,12 @@ namespace assigment_o5_OOP
 
             //e) Give one situation where Deep Copy would be safer than Shallow Copy.
             //Deep Copy is safer when you want to change the copied object without affecting the original object.
+
+            //a) What is a static field, and how is it different from an instance field ?
+            //a) A static field belongs to the class and is shared by all objects.
+            // An instance field belongs to each object separately.
+
+
         }
 
     }
