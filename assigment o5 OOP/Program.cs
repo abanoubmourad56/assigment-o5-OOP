@@ -37,6 +37,9 @@ namespace assigment_o5_OOP
             //a) A static field belongs to the class and is shared by all objects.
             // An instance field belongs to each object separately.
 
+            //b) What is a static method? Can a static method directly access instance members ?
+            //b) A static method belongs to the class.
+            //No, it cannot directly access instance members.
 
         }
 
