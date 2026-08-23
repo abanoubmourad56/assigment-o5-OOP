@@ -61,6 +61,8 @@ namespace assigment_o5_OOP
             //c) Where must an extension method be declared ?
             //c) It must be declared inside a static class.
 
+            //d) Can an extension method access private members of the class it extends?
+            //d) No, it cannot access private members of the class it extends.
 
         }
 
